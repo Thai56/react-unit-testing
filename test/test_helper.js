@@ -7,7 +7,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from '../src/reducers';
-import chaiJquery from 'chai-jQuery';
+import chaiJquery from 'chai-jquery';
 // Set up testing environment to run like a browser in the command line.
 global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');
 global.window = global.document.defaultView;
